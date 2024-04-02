@@ -1,0 +1,39 @@
+body{
+    background-color: slategray;
+}
+.tabs {
+    overflow: hidden;
+}
+
+.tablinks {
+    background-color: snow ;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.tablinks.active {
+    background-color: #ddd;
+    border: 21px solid #ccc;
+}
+
+/* Style for user list */
+#userList {
+    background-color:darkgrey;
+
+    display: none;
+    padding: 20px;
+    border: 21px solid #ccc;
+}
+
+#userList.active {
+    display: block;
+}
+
+#my-post{
+    border: 5px solid #ccc;
+
+}
